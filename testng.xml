@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/1/IdeaProjects/HH_testNG/src/test/java">
+        <parameter name="login" value="login"/>
+        <parameter name="password" value="password"/>
+        <parameter name="startMessage" value="Начало письма, название вакансии -->'"/>
+        <parameter name="endMessage" value="'. Конец письма"/>
+        <classes>
+            <class name="hhFindJob"/>
+        </classes>
+    </test>
+</suite>
